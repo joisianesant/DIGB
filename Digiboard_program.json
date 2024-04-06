@@ -1,0 +1,81 @@
+{
+    "name": "Lenovo_M80S",
+    "annotation_file": "C:\\Dev\\DigAOI\\best (1).pt",
+    "train_path": "datasets\\DigiboardImage_board1\\train\\",
+    "validation_path": "datasets\\DigiboardImage_board1\\validation\\",
+    "test_path": "datasets\\DigiboardImage_board1\\test\\\\czAc",
+    "lib_path": "datasets\\DigiboardImage_board1\\test\\",
+    "models": [
+        {
+            "family": "FID_CROSS",
+            "name": "FID_CROSS_0",
+            "type": "CV",
+            "order": 0,
+            "box_x": 100,
+            "box_y": 100,
+            "accept_min": 70,
+            "tol_y": 10,
+            "tol_x": 10,
+            "tol_a": 10,
+            "file": "\\model.jpg"
+        },
+        {
+            "family": "FID_CROSS",
+            "name": "FID_CROSS_1",
+            "type": "PYT",
+            "order": 1,
+            "box_x": 100,
+            "box_y": 100,
+            "tol_y": 10,
+            "tol_x": 10,
+            "tol_a": 10,
+            "accept_min": 70,
+            "file": "\\model.pth"
+        },
+        {
+            "family": "EC_SMALL_Y",
+            "name": "EC-SMALL_Y1",
+            "type": "TFK",
+            "order": 0,
+            "box_x": 100,
+            "box_y": 100,
+            "tol_y": 10,
+            "tol_x": 10,
+            "tol_a": 10,
+            "accept_min": 70,
+            "file": "\\model.pth"
+        }
+    ],
+    "board": {
+        "name": "main",
+        "offset_x": 0,
+        "offset_y": 0,
+        "offset_a": 0,
+        "components": [
+            {
+                "inspect": true,
+                "pose": "FID1",
+                "model": "FID_CROSS",
+                "type": "FID",
+                "polarity": "FID_CROSS",
+                "x": 1285.0,
+                "y": 2628.0,
+                "a": 0.0,
+                "box_x": 20.0,
+                "box_y": 20.0
+            },
+            {
+                "inspect": true,
+                "pose": "FID2",
+                "model": "FID_CROSS",
+                "type": "FID",
+                "polarity": "FID_CROSS",
+                "x": 3440.0,
+                "y": 280.0,
+                "a": 0.0,
+                "box_x": 20.0,
+                "box_y": 20.0
+            }
+        ]
+    }
+}
