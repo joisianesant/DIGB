@@ -1,0 +1,35 @@
+<HeroResults>
+    orientation: "vertical"
+    size_hint: 1, None
+    height: "120dp"
+    elevation: 8
+    radius: 16
+
+
+    MDHeroFrom:
+        id: hero_from
+        size_hint: 1, None
+        height: root.height / 1.8
+
+        FitImage:
+            source: "not-found-image.jpg"
+            size_hint: None, None
+            size: hero_from.size
+            radius: 16
+
+    
+    MDLabel:
+        id: lComp
+        text: "C504"
+        bold: True
+        adaptive_height: True
+        padding: 5, 5
+        font_style: "H5"
+
+    MDLabel:
+        id: lConf
+        text: "0.75"
+        bold: True
+        adaptive_height: True
+        padding: 5, 5
+        font_style: "H1"
