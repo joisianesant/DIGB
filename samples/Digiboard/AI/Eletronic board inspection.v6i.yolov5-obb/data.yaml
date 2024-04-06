@@ -1,0 +1,8 @@
+
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 12
+names: ['CE-MEDIUM0', 'CE-MEDIUM270', 'CE-SMALL0', 'CE-SMALL270', 'FID-CROSS', 'HDMI90', 'MIC90', 'RJ45', 'TYPE_C', 'USB270', 'USB90', 'VGA90']
