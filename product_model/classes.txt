@@ -1,0 +1,3 @@
+Lenovo_I3X0MS
+Lenovo_M80S
+Lenovo_M75S
